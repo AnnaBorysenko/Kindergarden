@@ -1,0 +1,40 @@
+@import "../abstracts/fonts";
+@import "../abstracts/color";
+
+.header-wrapper {
+  position: absolute;
+  z-index: 100;
+  margin: auto;
+  width: 100%;
+  //color: $color-text;
+}
+.collapse {
+  margin-top: 20px;
+  //color: $color-text;
+}
+
+.navbar {
+  background-color: rgba(136, 71, 174, 0.3);
+  text-transform: uppercase;
+  font-weight: 300;
+
+}
+
+.navbar {
+  font-size: $font-main-nav;
+
+}
+.navbar-brand {
+  font-family: 'Hachi Maru Pop', cursive;
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
+}
+
+.icon-nav {
+  padding-right: 14px;
+  color: $color-text;
+}
+.icon-nav:hover {
+  color: $color-text-hover ;
+}

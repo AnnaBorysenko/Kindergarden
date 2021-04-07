@@ -48,12 +48,12 @@ module.exports = {
           { loader: 'css-loader', options: { importLoaders: 1 } },
           isProd
             ? {
-                loader: 'postcss-loader',
-                options: {
-                  ident: 'postcss',
-                  plugins: () => [postcssPresetEnv(), cssnano()],
-                },
-              }
+              loader: 'postcss-loader',
+              options: {
+                ident: 'postcss',
+                plugins: () => [postcssPresetEnv(), cssnano()],
+              },
+            }
             : null,
           'sass-loader',
         ].filter(Boolean),

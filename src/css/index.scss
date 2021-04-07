@@ -1,5 +1,23 @@
-$bg: #f0f0f0;
+@import '~bootstrap/scss/bootstrap';
+@import '../../node_modules/owl.carousel/src/scss/owl.theme.default';
+@import '../../node_modules/owl.carousel/src/scss/_core';
+@import '../../node_modules/owl.carousel/src/scss/_animate';
+@import '../../node_modules/owl.carousel/src/scss/_autoheight';
+@import 'abstracts/color';
+@import "../css/components/navBar";
+@import "../css/components/homeSlider";
 
 body {
   background-color: $bg;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.container-fluid {
+  padding: 0;
+}
+a {
+  color: $color-text;
+}
+a:hover {
+  color: $color-text-hover ;
 }
